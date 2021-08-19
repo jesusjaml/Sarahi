@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarahi</title>
+    <link rel="shortcut icon" href="/bxl-tiktok.svg"/>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+        background-size: cover;
+        color: black;
+        font-family: monospace;
+    }
+    .profile__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+    }
+    section {
+        width: 260px;
+        text-align: center;
+    }
+    
+    .section__title-container {
+        background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%);
+        margin-bottom: 30px;
+        padding: 15px 20px;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 40px;
+    }
+    .section__title-container:hover {
+        cursor: pointer;
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+    }
+       
+    section h1 {
+        font-size: 20px; 
+    }
+
+    section img {
+        box-shadow: 0px 0px 5px 2px black;
+        border-radius: 50%;
+        margin-bottom: 30px;
+        cursor: pointer;
+        transition: transform 0.3s;
+    }
+    section img:hover {
+        transform: translateY(-3px);
+    }
+    section img:active {
+        transform: translateY(3px);
+    }
+    .section__description-container {
+        width: 100%;
+        background: rgb(255, 255, 255, 0.15);
+        border: 2px solid black;
+        border-radius: 40px;
+        font-size: 12px;
+        padding: 20px 30px;
+    }
+    .section__description-container h2 {
+        margin: 10px 0;
+    }
+    .section__description-container a {
+        text-decoration: none;
+        list-style: none;
+        text-align: left;
+        color: black; 
+    }
+    .section__description-container ul li {
+        padding: 3px 0;
+    }
+    .section__description-container ul li:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        transform: translateY(-3px);
+    }
+    .section__description-container ul li:active {
+        transform: translateY(3px);
+    }
+
+    footer {
+        position: absolute;
+        bottom: 12px;
+        left: calc(50% - 98.415px);
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    footer a {
+        text-decoration: none;
+        font-weight: bold;
+    }
+    footer a:hover {
+        background-image: linear-gradient(62deg, #8E0E00 0%, #1F1C18 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+</style>
+<body>
+    <div class="profile__container">
+        <section>
+            <div class="section__title-container">
+                <h1>Perfil de Sarahi</h1>
+            </div>
+            <div>
+                <img src="/sara.jpg" alt="Sarahi" width="150px">
+            </div>
+            <div class="section__description-container">
+                <p>Hola me llamo Sarahi, tengo 8 años, me gusta ver tik toks y jugar Roblox.
+                </p>
+                <h2>Tambien me gusta:</h2>
+                <ul>
+                    <a href="https://infolibros.org/libros-de-hadas-gratis-pdf/" target="_blank"><li>📕 Leer</li></a>
+                    <a href="https://education.minecraft.net/es-es/homepage" target="_blank"><li>💪 Aprender muchas cosas</li></a>
+                    <a href="https://www.youtube.com/watch?v=_wE3hDN06Qg" target="_blank"><li>🎤 Cantar</li></a>
+                    <a href="https://www.netflix.com/title/80050063" target="_blank"><li>🍿 Ver animes</li></a>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <a href="https://jesusjaml.github.io/Portafolio-Responsivo-Jesus/" target="_blank">Jesus Monge</a>
+        <p> &#169 2021 copyright all right reserved 🇪🇨</p>
+    </footer>
+</body>
+</html>
